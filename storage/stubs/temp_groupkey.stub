@@ -1,0 +1,13 @@
+        'pgsql_{{database}}' => [
+            'driver' => 'pgsql',
+            'host' => '{{host}}',
+            'port' => '{{port}}',
+            'database' => '{{database}}',
+            'username' => '{{username}}',
+            'password' => '{{password}}',
+            'charset' => 'utf8',
+            'prefix' => '',
+            'schema' => 'public',
+            'sslmode' => 'prefer',
+        ],
+

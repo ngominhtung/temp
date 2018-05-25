@@ -1,0 +1,65 @@
+/* Admin css */
+* {
+    margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+#register_page {
+  background: url("/img/background_register.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.register_body {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 40%;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.register_row_2 > div {
+    text-align: center;
+    margin: 15px 0;
+}
+.register_row_2 > div a {
+    padding: 5px 10px;
+    background-color: #6BB93F;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+#import_form {
+    margin: 0;
+}
+.register_row_3 {
+    width: 100%;
+}
+.register_row_2 > div:first-child, .register_row_3 > div:first-child {
+    width: 48%;
+    float: left;
+    font-size: 13px;
+}
+.register_row_2 > div:last-child, .register_row_3 > div:last-child {
+    width: 48%;
+    float: right;
+    font-size: 13px;
+}
+.register_row_4 {
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+    color: red;
+}
+.register_row_4 > .error-csv {
+    display:none;
+}
